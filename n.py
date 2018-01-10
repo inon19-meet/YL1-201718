@@ -1,4 +1,5 @@
 
+
 import turtle
 
 from turtle import *
@@ -7,7 +8,7 @@ for i in range(250): # this "for" loop will repeat these functions 500 times
     left(91)
 from turtle import *
 colors = ['red', 'purple', 'blue', 'green', 'yellow', 'orange']
-for x in range(360):
+for x in range(160):
     pencolor(colors[x % 6])
     width(x / 100 + 1)
     forward(x)
@@ -15,7 +16,7 @@ for x in range(360):
 turtle.goto(100,100)
 ninja = turtle.Turtle()
 
-ninja.speed(10)
+ninja.speed(100)
 
 for i in range(180):
     ninja.forward(100)
